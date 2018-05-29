@@ -22,5 +22,13 @@ public class Task {
 	private LocalDate dueDate;
 	private Boolean completed;
 	
+	public Task(){
 	
+	}
+	
+	public Task(String name, LocalDate dueDate, Boolean completed) {
+		this.name = name;
+		this.dueDate = dueDate;
+		this.completed = completed;
+	}
 }
